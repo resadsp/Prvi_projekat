@@ -1,0 +1,194 @@
+body{
+    background-color: bisque;
+}
+.karta{
+    width: 510px;
+    height: 327px;
+    background-color: white;
+    margin-left: 35%;
+    margin-top: 200px;
+    border-radius: 5%;
+}
+.licna-karta{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 490px;
+    height: 307px;
+   background-color: white;
+    display: grid;
+    grid-template: "grb prazno rep rep rep"
+                    "grb prazno li li li"
+                    "sl sl prezime prezime ssss"
+                    "sl sl ime ime ssss"
+                    "sl sl datum datum ssss"
+                    "sl sl pol brl msl"
+                    "sl sl daiz daiz msl"
+                    "sl sl dava dava msl"
+                    "pu pu pu pu potpis";
+    grid-template-columns: 80px 80px 100px 100px 130px;
+    grid-template-rows: 30px 30px 35px 35px 35px 35px 35px 35px 37px;    
+}
+
+
+.grb{
+    grid-area: grb;  
+}
+
+.grb img{
+    margin: 0px auto; 
+    margin-left: 30%;
+    opacity: 0.8;
+}
+
+.prazno{
+    grid-area: prazno;    
+}
+
+.rep{
+    grid-area: rep;
+    display: flex;
+}
+
+.li{
+    grid-area: li;
+    display: flex;   
+}
+
+.sl{
+    grid-area: sl;
+}
+
+.sl img{
+    margin-top: 20%;
+    margin-left: 2%;
+    filter: contrast(96%);   
+}
+
+.prezime{
+    grid-area: prezime;   
+}
+
+.ime{
+    grid-area: ime;
+    padding-top: 4px;
+   
+}
+.ssss{
+    grid-area: ssss;
+    
+    display: flex;
+    justify-content: center;    
+}
+
+.ssss img{
+ align-self: self-end; 
+ filter: contrast(200%)
+}
+
+.datum{
+    grid-area: datum;
+    padding-top: 4px;   
+}
+
+.pol{
+    grid-area: pol;
+    padding-top: 4px;
+    
+}
+
+.brl{
+    grid-area: brl;
+    padding-top: 4px;
+}
+
+.msl{
+    grid-area: msl;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.msl img{
+    align-self: center; 
+}
+
+.daiz{
+    grid-area: daiz;
+    padding-top: 4px;  
+}
+
+.dava{
+    grid-area: dava;
+    padding-top: 4px; 
+}
+
+.pu{
+    grid-area: pu;
+    padding-top: 4px;  
+}
+
+.potpis{
+    grid-area: potpis;
+   
+    display: flex;
+    justify-content: center;
+}
+
+.potpis img{
+    align-items: center;
+}
+
+.velika-slova{
+    font-size: 19px;
+    text-align: center;
+    padding-left: 8px;
+}
+
+.mala-slova{
+    opacity: 0.6;
+    font-style: italic;
+    font-size: 19px;   
+}
+
+.mala-slovag{
+    opacity: 0.6;
+    font-style: italic;
+    font-size: 15px;
+    padding-left: 8px;
+    padding-top: 0px;    
+}
+
+.malaa-slovag{
+    opacity: 0.6;
+    font-style: italic;
+    font-size: 15px;
+    padding-left: 0px;    
+}
+
+.velikaa-slovag{
+    font-size: 16.5px; 
+    padding-left: 0px;
+    padding-top: 0px;    
+}
+
+.velika-slovag{
+    font-size: 16.5px; 
+    padding-left: 8px;
+    padding-top: 0px;
+}
+
+#stil{
+    background-color: white;
+    margin-left: 730px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10%;
+    border-color: blanchedalmond;
+    
+}
+
+#stil:hover{
+    background-color: bisque;    
+    transition: 0.5s;
+}
